@@ -19,9 +19,9 @@
   "author": "https://github.com/nik-kita <volsknik@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nik-kita/redis-gram/issues"
+    "url": "https://github.com/nik-kita/kucoin-777-api/issues"
   },
-  "homepage": "https://github.com/nik-kita/redis-gram#readme",
+  "homepage": "https://github.com/nik-kita/kucoin-777-api#readme",
   "devDependencies": {
     "@types/axios": "^0.14.0",
     "@types/moment": "^2.13.0",
