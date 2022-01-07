@@ -3,7 +3,7 @@ import { GetEndpointEnum } from '../enums/endpoint.enum';
 import { GetAccountsReq } from './account-info/account-info.get.api';
 import { GetOrderInfoReq } from './order-info/order-info.get.api';
 
-export default class GetReq {
+export class GetReq {
     public static [GetEndpointEnum.ACCOUNTS] = new GetAccountsReq();
 
     public static [GetEndpointEnum.ORDER] = {
