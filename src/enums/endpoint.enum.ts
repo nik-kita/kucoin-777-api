@@ -6,7 +6,7 @@ export enum PostEndpointEnum {
 
 export enum GetEndpointEnum {
   ACCOUNTS = '/api/v1/accounts',
-  ORDER = '/api/v1/orders/:orderId',
+  ORDER = '/api/v1/orders/',
 }
 
 export const HOST = 'https://api.kucoin.com' as const;
