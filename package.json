@@ -1,5 +1,5 @@
 {
-  "name": "@nik-kita/kucoin/api",
+  "name": "@nik-kita/kucoin-777-api",
   "description": "",
   "files": [
     "dist/**/*"
@@ -11,7 +11,9 @@
     "prepare": "npm run build",
     "start": "node dist",
     "version": "git add -A",
-    "postversion": "git push"
+    "postversion": "git push",
+    "gitam": "git add -A && git commit -m ",
+    "patch": "npm version patch && npm publish --access public"
   },
   "keywords": [],
   "author": "https://github.com/nik-kita <volsknik@gmail.com>",
